@@ -1,1 +1,5 @@
-"""QUBO formulation utilities (Phase 2)."""
+"""QUBO formulation utilities."""
+
+from .problem import QuboProblem
+
+__all__ = ["QuboProblem"]
